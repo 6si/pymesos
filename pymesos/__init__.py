@@ -19,7 +19,7 @@ logger.addHandler(handler)
 logger.setLevel(logging.INFO)
 
 
-__VERSION__ = '0.3.9'
+__VERSION__ = '0.3.9.1'
 
 __all__ = (
     'Scheduler',
