@@ -41,8 +41,11 @@ setup(
     download_url=(
         'https://github.com/douban/pymesos/archive/%s.tar.gz' % version
     ),
-    install_requires=['six', 'http-parser', 'addict'],
-    dependency_links=['git+https://github.com/benoitc/http-parser@2306df28fbd7946036a2609776a77833f5dda81e#egg=http-parser'],
+    install_requires=[
+        'six',
+        'http-parser @ https://github.com/benoitc/http-parser@2306df28fbd7946036a2609776a77833f5dda81e',
+        'addict'
+    ],
     setup_requires=pytest_runner,
     tests_require=[
         'pytest-cov',
