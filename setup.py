@@ -43,7 +43,7 @@ setup(
     ),
     install_requires=[
         'six',
-        'http-parser @ https://github.com/benoitc/http-parser@2306df28fbd7946036a2609776a77833f5dda81e',
+        'http-parser @ https://github.com/benoitc/http-parser@2306df28fbd7946036a2609776a77833f5dda81e#egg=http-parser',
         'addict'
     ],
     setup_requires=pytest_runner,
